@@ -33,13 +33,35 @@ body {
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
 
 }
 
 .titulonav {
-  font-size:larger
+  font-size: larger
 }
 
+.navbar-custom {
+  background-color: #f8c8dc; 
+  
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: black !important;
+  font-style: oblique;
+}
+
+.navbar-custom .navbar-toggler {
+  border-color: rgb(59, 59, 59); 
+}
+
+.navbar-custom .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+.footer-custom {
+  background-color: #f8c8dc; 
+  color: black;  }
