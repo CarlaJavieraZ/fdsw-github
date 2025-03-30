@@ -1,5 +1,6 @@
 body {
   font-family: "Raleway", sans-serif;
+  background-color: rgb(255, 224, 230);
 }
 
 /* Hero Section */
@@ -41,3 +42,4 @@ body {
 .titulonav {
   font-size:larger
 }
+
